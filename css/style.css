@@ -1,0 +1,134 @@
+/* Remover formatações padrões */
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(233, 233, 233);
+}
+
+/* Layout */
+
+#areaCabecalho{
+    background-color: #080948;
+    padding: 15px;
+    text-align: center;
+}
+
+#areaPrincipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#areaPostagens{
+    width: 660px;
+    float: left;
+}
+
+#areaLateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+
+.conteudoLateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#rodape{
+    background: #CCC;
+    clear: both ;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#areaLogo, #areaMenu{
+    padding: 10px;
+}
+
+.postagemLateral{
+    font-size: 0.8em;
+    padding: 1px;
+}
+
+.categorias{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin: 5px 0px;
+}
+
+/* Formatações Gerais */
+
+h1{
+    color: rgb(209, 188, 2);
+    font-size: 2.5em;
+}
+
+h2{
+    color: rgb(0, 72, 255);
+}
+
+h3{
+    color: rgb(0, 72, 255);
+    background: #CCC;
+    padding: 5px;
+}
+
+.dataPostagem{
+    font-size: 0.8em;
+    border-bottom: solid white;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.branco{
+    color: white;
+}
+
+
+/* Formatações de Menu */
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: rgb(0, 72, 255);
+
+}
+
+a:hover{
+    color: rgb(0, 72, 255);
+    background: rgb(209, 188, 2);
+    text-decoration: underline;
+}
+
+/* Colocando o id antes da formatação que será usada, possibilita a alteração somente dos links que estão presentes nesse id */
+#areaCabecalho a:link, #areaCabecalho a:visited{
+    color: rgb(0, 72, 255);
+    padding: 8px 12px;
+}
+
+#areaCabecalho a:hover{
+    color: rgb(0, 72, 255);
+    background: rgb(209, 188, 2);
+}
+
